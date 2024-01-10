@@ -8,15 +8,17 @@ body {
 .link {
   color: #333;
   text-decoration: none;
+  font-size: 25px;
 }
 .content {
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 nav {
   margin: 10px auto 80px;
   padding: 10px 0;
   display: flex;
+  gap: 10px;
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
@@ -26,6 +28,10 @@ nav .link {
 }
 nav .logo {
   margin-right: auto;
+  font-size: 20px;
+}
+
+p{
   font-size: 20px;
 }
 footer {
@@ -45,3 +51,4 @@ footer {
   color: #4979ff;
   text-decoration: underline;
 }
+

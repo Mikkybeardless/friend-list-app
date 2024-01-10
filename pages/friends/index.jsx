@@ -13,7 +13,7 @@ export const getStaticProps = async () => {
 const Friends = ({friends}) => {
   return (
     <div>
-      <h1> friends</h1>
+      <h1> Friends</h1>
       {friends.map((friend)=>(
         <Link className={styles.single} href={`/friends/${friend.id}`} key={friend.id}>
          
